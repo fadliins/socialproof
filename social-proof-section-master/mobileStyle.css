@@ -1,0 +1,67 @@
+@media(max-width:576px){
+    body{
+        text-align: center;
+    }
+/* Top */
+    #background-top{
+        background-color: white;
+    }
+
+    /* .top{
+        margin-bottom: 20px;
+    } */
+
+    /* Title */
+
+    #title-text{
+        font-size: 3rem;
+    }
+
+    /* Star */
+    .star-container{
+        width: 100%;
+        padding: 3% 7%;
+    }
+
+    .star-image{
+        margin-right: 0;
+    }
+
+    #second-star{
+        left: 0px;
+    }
+
+    #third-star{
+        left: 0px;
+    }
+    
+    .star-text{
+        display: block;
+    }
+
+
+/* Bottom */
+
+    #background-bottom{
+        background-color: white;
+    }
+
+    .bottom{
+        padding: 3% 7%;
+    }
+
+    .testimoni{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .profile-picture{
+        margin-right: 20px;
+    }
+    .leftAlign{
+        text-align: left;
+    }
+    .message-text{
+        text-align: left;
+    }
+}

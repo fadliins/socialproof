@@ -1,0 +1,109 @@
+body {
+  font-family: "Spartan", sans-serif;
+  font-size: 15px;
+}
+
+.cont{
+  padding: 4%;
+}
+
+/* Top Content */
+
+#background-top{
+  background-image: url("images/bg-pattern-top-desktop.svg");
+}
+
+.top {
+  /* padding: 4%; */
+  padding-bottom: 0;
+}
+
+/* Title  */
+#title-text {
+  font-size: 4rem;
+  font-weight: 700;
+  color: hsl(300, 43%, 22%);
+}
+
+#sub-text {
+  color: hsl(303, 10%, 53%);
+}
+
+/* Star */
+.star-container {
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  border-radius: 10px;
+  width: 82%;
+  padding: 3% 80px 3% 7%;
+  margin-bottom: 30px;
+  position: relative;
+  top: 20px;
+}
+
+.star-image {
+  margin-right: 30px;
+}
+
+#second-star {
+  left: 40px;
+}
+
+#third-star {
+  left: 90px;
+}
+
+/* Bottom */
+
+#bottom-background{
+  background-image: url("images/bg-pattern-bottom-desktop.svg");
+}
+
+.bottom {
+  /* padding: 4%; */
+  padding-top: 0;
+  margin-top: 100px;
+}
+
+.testimoni{
+  background-color: hsl(300, 43%, 22%);
+  padding: 5%;
+  padding-bottom: 0;
+  border-radius: 10px;
+  max-width: 30%;
+  margin-right: 42px;
+  max-height: fit-content;
+}
+
+#middle-testimoni{
+  top: 25px;
+}
+
+#bottom-testimoni{
+  top: 50px;
+}
+
+.profile-picture{
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.testi-name{
+  color: white;
+  font-weight: 700;
+}
+
+.verified{
+  color: hsl(333, 80%, 67%);
+  font-weight: 500;
+}
+
+.message-text{
+  color: white;
+}
+/* Additional Code */
+.no-margin{
+  margin-bottom: 0;
+}
